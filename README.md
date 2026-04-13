@@ -1,82 +1,103 @@
-<div>
-  <h1>Wanderlust</h1>
-  <h2>The Ultimate Travel Blog 🌍✈️ for You </h2>
+# 🚀 Wanderlust: End-to-End DevSecOps CI/CD Pipeline
+
+<div align="center">
+  <img src="https://github.com/krishnaacharyaa/wanderlust/assets/116620586/17ba9da6-225f-481d-87c0-5d5a010a9538" alt="Wanderlust Banner" width="100%">
 </div>
-
-![Preview Image](https://github.com/krishnaacharyaa/wanderlust/assets/116620586/17ba9da6-225f-481d-87c0-5d5a010a9538)
-
-<hr>
-
-<div>
-  <h2>Goal of this project</h2>
-</div>
-
-- Start your open source journey using Git & GitHub  
-- Learn MERN stack development  
-- Improve React and full-stack skills through real project building  
-
-<hr>
-
-<div>
-  <h2>Features</h2>
-</div>
-
-- Featured travel posts  
-- Category-based discovery (Travel, Nature, City, Adventure, Beaches)  
-- Simple and user-friendly UI  
-
-<hr>
-
-<div>
-  <h2>Ready to Contribute?</h2>
-</div>
-
-Go through CONTRIBUTING.md for setup and contribution guidelines.
-
-If you would like to contribute, please follow standard Git workflow.
-
-<hr>
-
-<div>
-  <h2>Open Source Programs</h2>
-</div>
-
-This project is part of open-source contribution programs and welcomes developers to improve it.
-
-<hr>
-
-<div>
-  <h2>Code of Conduct</h2>
-</div>
-
-This project follows standard contributor code of conduct.
-
-<hr>
-
-<div>
-  <h2>License</h2>
-</div>
-
-This project is licensed under the MIT License.
-
-<hr>
-
-<div>
-  <h2>Show Your Support</h2>
-</div>
-
-If you like this project, please give it a ⭐ on GitHub.
 
 ---
 
-<div>
-  <h2>Contributors</h2>
-</div>
+## 📌 Project Overview
 
-Thanks to all contributors for improving this project.
+Wanderlust is a production-grade MERN stack travel application transformed into a robust **DevSecOps Case Study**.
 
-<div>
-<a href="https://github.com/krishnaacharyaa/wanderlust/graphs/contributors">
-  <img width="90%" src="https://contrib.rocks/image?repo=krishnaacharyaa/wanderlust" />
-</a>
-</div>
+This project implements a **Shift-Left Security model**, ensuring that every code change is:
+
+* Audited
+* Scanned for vulnerabilities
+* Containerized before reaching production
+
+---
+
+## 🏗️ System Architecture & Workflow
+
+## 🖼️ Image Add Karo
+
+<!-- Add Architecture Diagram Here -->
+
+---
+
+## 🛡️ DevSecOps Pipeline Features
+
+| Stage               | Tool                   | Purpose                                         |
+| ------------------- | ---------------------- | ----------------------------------------------- |
+| CI/CD Orchestration | Jenkins                | Automates build, test, and deployment lifecycle |
+| SAST                | SonarQube              | Detects bugs, vulnerabilities, and code smells  |
+| SCA                 | OWASP Dependency-Check | Scans third-party libraries for vulnerabilities |
+| Container Security  | Trivy                  | Detects CVEs and misconfigurations in images    |
+| Orchestration       | AWS EKS                | Manages scalable container deployments          |
+| Observability       | Prometheus & Grafana   | Real-time monitoring and alerting               |
+
+---
+
+## 🚀 Deployment Workflow
+
+### 1. Infrastructure (IaC)
+
+```bash
+cd terraform
+terraform init
+terraform apply -auto-approve
+```
+
+### 2. CI/CD Trigger
+
+* Developer pushes code to GitHub
+* Jenkins triggers pipeline via webhook
+
+### 3. Security Gates
+
+Pipeline executes:
+
+* SAST (SonarQube)
+* SCA (Dependency Check)
+* Container Scan (Trivy)
+
+⚠️ Pipeline fails automatically if **critical vulnerabilities** are found
+
+### 4. Deployment
+
+* Docker images pushed to **Amazon ECR**
+* Application deployed to **AWS EKS using Helm**
+
+---
+
+## 🖼️ Image Add Karo
+
+<!-- Add Jenkins Pipeline Screenshot Here -->
+
+---
+
+## 🖼️ Image Add Karo
+
+<!-- Add SonarQube Report Screenshot Here -->
+
+---
+
+## 🛠️ Tech Stack
+
+**Cloud:**
+AWS (EC2, EKS, S3, IAM, VPC)
+
+**DevOps:**
+Docker, Jenkins, Terraform, Ansible, Git, GitHub
+
+**Security:**
+SonarQube, Trivy, OWASP Dependency-Check
+
+**Monitoring:**
+Prometheus, Grafana
+
+**Application:**
+Node.js, Express.js, React, MongoDB
+
+---
