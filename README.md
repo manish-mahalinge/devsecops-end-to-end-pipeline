@@ -20,7 +20,8 @@ This project implements a **Shift-Left Security model**, ensuring that every cod
 
 ## 🏗️ System Architecture & Workflow
 
-## 🖼️ Image Add Karo
+<img width="1408" height="768" alt="Devsecops-project" src="https://github.com/user-attachments/assets/91c8c2d0-0edd-4ef9-a692-eca68e0327eb" />
+
 
 <!-- Add Architecture Diagram Here -->
 
@@ -71,15 +72,14 @@ Pipeline executes:
 
 ---
 
-## 🖼️ Image Add Karo
+<img width="1920" height="1080" alt="pipeline" src="https://github.com/user-attachments/assets/f6ee0491-8c8d-4905-80a4-6d73ecc14562" />
 
-<!-- Add Jenkins Pipeline Screenshot Here -->
 
 ---
 
-## 🖼️ Image Add Karo
+<img width="1920" height="1080" alt="SonaQube" src="https://github.com/user-attachments/assets/7686c525-ba19-4d4b-b01a-8e3df585a3c7" />
 
-<!-- Add SonarQube Report Screenshot Here -->
+
 
 ---
 
